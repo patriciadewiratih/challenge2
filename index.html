@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<title> Mars Dome</title>	
+		<link rel="stylesheet" type="text/css" href="styles/style.css"> 
+	</head>
+	<body>
+		<canvas></canvas>
+			<a><img src="images/earth image.png" alt="View Mars Clock" class="earth"></a>
+			<a><img src="images/mars image.png" alt="View Earth Clock" class="mars"></a>
+
+			<h1 class="current">Current Time on <span id="change">Earth</span></h1>
+			<h1 id="clock" class="clock"></h1>
+			
+			<button class="button" onclick="interaction()">Change Color</button>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
