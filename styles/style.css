@@ -22,7 +22,7 @@ canvas{
 }
 
 body{
-    font-family: 'exo 2', sans-serif;
+    font-family: 'helvetica neue', sans-serif;
     text-align: center;
     color: white; 
 }
@@ -88,7 +88,7 @@ img{
     overflow: hidden;
     cursor: pointer;
     margin-top: 1em;
-    font-family: 'exo 2';
+    font-family: 'helvetica neue';
   }
   
   .button:after {
